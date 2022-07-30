@@ -1,0 +1,246 @@
+   :root {
+      overflow: hidden;
+  }
+  
+  .header {
+      overflow: hidden;
+      position: sticky;
+  }
+  
+  .main-nav {
+      background-color: #fff;
+      display: flex;
+      overflow: hidden;
+  }
+  
+  .logo img {
+      padding-left: 10px;
+      height: 50px;
+      width: auto;
+      padding-top: 14px;
+      display: block;
+  }
+  
+  .grow {
+      display: flex;
+      flex-grow: 1;
+  }
+  
+  .menu {
+      overflow: hidden;
+      width: 30%;
+      justify-content: right;
+      position: relative;
+      line-height: 4em;
+  }
+  
+  .menu-list {
+      text-align: center;
+      overflow: hidden;
+      font-weight: 900;
+      text-decoration: none;
+      width: 10%;
+      display: flex;
+      text-transform: uppercase;
+      padding-top: 5px;
+      padding-left: 50px;
+  }
+  
+  .menu-list:hover {
+      text-decoration: underline;
+      color: black;
+  }
+  
+  .menu-list:link.active,
+  .menu-list:visited.active,
+  .menu-list:active.active {
+      background: #f857a8;
+      background: -webkit-linear-gradient(45deg, #f857a8, #ff5858);
+      background: linear-gradient(45deg, #f857a8, #ff5858);
+      color: #fff;
+  }
+  
+  .menu-list {
+      transform: skew(-10deg);
+      color: #777;
+      text-decoration: none;
+  }
+  
+  .main-img {
+      padding-top: 10px;
+      padding-left: 10px;
+      display: block;
+      width: 60%;
+      height: 500px;
+      overflow: hidden;
+  }
+  
+  .main-img img {
+      height: 400px;
+  }
+  
+  .btn {
+      background-image: linear-gradient(to right, #24C6DC 0%, #514A9D 51%, #24C6DC 100%)
+  }
+  /* .btn {
+                        width: 250px;
+                        margin: 10px;
+                        padding: 15px 30px;
+                        text-transform: uppercase;
+                        transition: 0.5s;
+                        background-size: 200%;
+                        color: white;
+                        border-radius: 49px;
+                        font-family: Georgia;
+                        display: block;
+                        border: solid black 1px;
+                        text-align: center;
+                    }
+                    
+                    .btn:hover {
+                        background-size: contain;
+                        color: #fff;
+                        text-decoration: none;
+                    } */
+  
+  .section-main {
+      background-color: #fff;
+      display: flex;
+      overflow: hidden;
+  }
+  
+  .main-btn {
+      justify-content: center;
+      text-align: center;
+      width: 40%;
+  }
+  
+  .btn-h1 {
+      display: flex;
+      justify-content: center;
+      text-decoration: underline;
+      font-family: Georgia;
+  }
+  
+  .clt-btn {
+      justify-content: center;
+      display: grid;
+  }
+  
+  .img-h1 {
+      display: block;
+      text-align: center;
+      justify-content: center;
+      text-decoration: underline;
+      font-family: Georgia;
+  }
+  
+  #btn {
+      justify-content: center;
+      text-align: center;
+      display: flex;
+  }
+  
+  .footer {
+      margin-bottom: 10px;
+      padding-top: 10px;
+      height: 2em;
+      text-align: center;
+      background-color: #24C6DC;
+  }
+  /* .btn1 {
+               background-image: linear-gradient(to right, #24C6DC 0%, #514A9D 51%, #24C6DC 100%)
+           } */
+  /*           
+          .btn1 {
+              text-decoration: none;
+              width: 250px;
+              margin: 10px;
+              padding: 15px 30px;
+              text-transform: uppercase;
+              transition: 0.5s;
+              background-size: 200%;
+              color: white;
+              border-radius: 49px;
+              font-family: Georgia;
+              display: block;
+              border: solid black 1px;
+              text-align: center;
+          }
+          
+          .btn1:hover {
+              background-size: contain;
+          } */
+  
+  .btn3 {
+      background-image: linear-gradient(to right, #24C6DC 0%, #514A9D 51%, #24C6DC 100%);
+      width: 150px;
+      height: 49px;
+      border: none;
+      outline: none;
+      border-radius: 49px;
+      cursor: pointer;
+      background-color: #5995fd;
+      background-size: 200%;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin: 10px 0;
+      transition: .5s;
+  }
+  
+  .btn3:hover {
+      background-size: contain;
+  }
+  
+  .btn {
+      background-image: linear-gradient(to right, #24C6DC 0%, #514A9D 51%, #24C6DC 100%);
+      width: 250px;
+      height: 49px;
+      border: none;
+      outline: none;
+      border-radius: 49px;
+      cursor: pointer;
+      background-color: #5995fd;
+      background-size: 200%;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin: 10px 0;
+      transition: .5s;
+  }
+  
+  .btn:hover {
+      background-size: contain;
+  }
+  
+  .btn4 {
+      background-image: linear-gradient(to right, #24C6DC 0%, #514A9D 51%, #24C6DC 100%);
+      width: 200px;
+      height: 49px;
+      border: none;
+      display: block;
+      justify-content: center;
+      outline: none;
+      border-radius: 49px;
+      cursor: pointer;
+      background-color: #5995fd;
+      background-size: 200%;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin: 10px 0;
+      transition: .5s;
+      /* padding-left: 100px; */
+  }
+  
+  .btn4:hover {
+      background-size: contain;
+  }
+  
+  #btn1 {
+      padding-top: 50px;
+      padding-left: 750px;
+      padding-bottom: 50px;
+      /* margin-right: 100px; */
+  }
